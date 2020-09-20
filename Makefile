@@ -1,2 +1,2 @@
 test:
-	python -m pytest -vv main.py
+	python -m pytest -vv test.py

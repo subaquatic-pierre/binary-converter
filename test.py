@@ -30,8 +30,3 @@ def test_binary_to_decimal_2():
 def test_binary_to_decimal_3():
     result = binary_to_decimal("1100011010110")
     assert result == 6358
-
-
-if __name__ == "__main__":
-    test_decimal_to_binary_1()
-    test_decimal_to_binary_2()
