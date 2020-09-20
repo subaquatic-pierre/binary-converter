@@ -1,4 +1,4 @@
-def binary_to_decimal(binary: str) -> int:
+def binary_to_decimal(binary):
     bits = list(binary)
     bits.reverse()
     results = []
