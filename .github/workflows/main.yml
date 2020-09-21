@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           make dependencies
-      - name: Liny with Pylint
+      - name: Lint with Pylint
         run: |
           make lint
       - name: Run tests
