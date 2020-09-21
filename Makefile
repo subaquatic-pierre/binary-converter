@@ -7,4 +7,4 @@ dependencies:
 lint:
 	pylint --disable=R,C,E1120,W0613 convert.py
 
-all: dependencies test
+all: pylint dependencies test
