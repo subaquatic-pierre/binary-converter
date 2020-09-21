@@ -41,3 +41,5 @@ For help:
 
 - Create Hex converter
 - Create base 64 converter
+
+![CI](https://github.com/subaquatic-pierre/binary-converter/workflows/CI/badge.svg)
