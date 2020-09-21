@@ -4,6 +4,14 @@ Simple command line program to convert binary to decimal and decimal to binary.
 
 Currently the program only runs test against 3 numbers of each.
 
+## Dependencies
+
+- Ensure you have python3.x installed
+
+The command to run python3:
+
+    python YOUR_SCRIPT
+
 ## Getting started
 
 Clone this repository and change into directory:
@@ -13,7 +21,7 @@ Clone this repository and change into directory:
 
 Install dependencies:
 
-    python -m pip install -r requirement.py
+    make dependencies
 
 ## Usage
 
@@ -23,7 +31,7 @@ Convert from decimal to binary:
 
 Convert from decimal to binary:
 
-    python convert --decimal YOUR_BINARY
+    python convert --binary YOUR_BINARY
 
 For help:
 
