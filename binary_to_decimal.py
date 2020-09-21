@@ -7,4 +7,4 @@ def binary_to_decimal(binary):
             results.append(1 * (2 ** i))
 
     result = sum(results)
-    return result
+    return "some"
