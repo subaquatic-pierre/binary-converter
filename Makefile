@@ -4,4 +4,7 @@ test:
 dependencies:
 	python -m pip install -r requirements.txt
 
-all: dependencies test
+lint:
+	pylint --disable=R,C,E1120,W0613 convert.py
+
+all: pylint dependencies test
