@@ -1,5 +1,7 @@
 # Binary Converter
 
+![CI](https://github.com/subaquatic-pierre/binary-converter/workflows/CI/badge.svg)
+
 Simple command line program to convert binary to decimal and decimal to binary.
 
 Currently the program only runs test against 3 numbers of each.
@@ -41,5 +43,3 @@ For help:
 
 - Create Hex converter
 - Create base 64 converter
-
-![CI](https://github.com/subaquatic-pierre/binary-converter/workflows/CI/badge.svg)
